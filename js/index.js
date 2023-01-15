@@ -105,9 +105,11 @@ var $sitehead = $("#site-head");
 
         if (w >= Math.floor(g) && w <= Math.ceil(h)) {
           $(".fixed-nav").fadeOut("fast");
-        } else if ($(window).width() > 500) {
+        } else {
           $(".fixed-nav").fadeIn("fast");
         }
+
+  
 
         $post.each(function () {
           if (($(window).height() + w) > ($(document).height() - $(".site-footer").height())) {

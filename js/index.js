@@ -48,6 +48,12 @@ var $sitehead = $("#site-head");
         pagination: false,
         scrollbar: false,
 
+      // Navigation arrows
+      // navigation: {
+      //   nextEl: '.swiper-button-next',
+      //   prevEl: '.swiper-button-prev',
+      // },
+
         preloadImages: false,
         lazy: {
           loadPrevNext: true,
